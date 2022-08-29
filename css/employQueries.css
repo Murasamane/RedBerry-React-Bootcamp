@@ -1,0 +1,43 @@
+@media(max-width:790px){
+    html{
+        font-size: 56.2%;
+    }
+    .names{
+        grid-template-columns: 1fr;
+        justify-items: center;
+        gap: 1.2rem;
+    }
+    .firstnames,.lastnames{
+        justify-self: center;
+        width: 100%;
+    }
+    .mails,.contact{
+        width: 100%;
+    }
+    .laptop-link{
+        display: none;
+    }
+    .header{
+        padding: 3.2rem;
+    }
+    .nav-ul{
+        gap: 0;
+    }
+    .form-section{
+        padding: 1.2rem;
+        width: 100%;
+        border-radius: 0;
+    }
+    .position-select select,.select-team select{
+        width: 100%;
+    }
+    .firstnames input, .lastnames input{
+        width: 100%;
+    }
+    .pages{
+        display: block;
+    }
+    .btn-back:link,.btn-back:visited{
+        background: none;
+    }
+}

@@ -1,0 +1,90 @@
+main{
+    padding: 4.8rem;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    justify-items: center;
+    align-items: center;
+    padding: 6.2rem;
+}
+.pages{
+    grid-column: 2;
+    font-size: 1.4rem;
+    color: #898989;
+    display: none;
+ }
+.btn-back:link,.btn-back:visited{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color:#2E2E2E ;
+    padding: 1.2rem;
+    font-size: 2.4rem;
+    background-color: #D9D9D9;
+    border-radius: 50%;
+}
+
+.info-title{
+    font-size: 3.4rem;
+    font-weight: 700;
+    color: #000;
+}
+.employ-information,.laptop-information{
+    margin-bottom: 4.8rem;
+}
+.grid-2{
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+.laptop-img{
+    justify-self: end;
+}
+.information-text-box,.laptop-text-box{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+.infos-span{
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #2E2E2E;
+    display: flex;
+    justify-content: space-between;
+    gap: 3.2rem;
+    color: #2E2E2E;
+}
+
+.name-info{
+    font-size: 2.2rem;
+    font-weight: 400;
+    color: #797979;
+}
+
+@media(max-width:1080px){
+    html{
+        font-size: 56.2%;
+    }
+    main{
+        padding: 2.4rem;
+    }
+    .info-title{
+        font-size: 16px;
+    }
+    .grid-2{
+        grid-template-columns: 1fr;
+        justify-items: start;
+        gap: 3.2rem;
+    }
+    .laptop-img{
+        justify-self: center;
+        max-width: 100%;
+    }
+    .infos-span{
+        gap: 1rem;
+    }
+}

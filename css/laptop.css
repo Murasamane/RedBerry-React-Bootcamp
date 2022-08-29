@@ -1,0 +1,297 @@
+body{
+    background-color: #E5E5E5;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    justify-items: center;
+    align-items: center;
+    padding: 6.2rem;
+}
+.pages{
+   grid-column: 2;
+   font-size: 1.4rem;
+   color: #898989;
+   display: none;
+}
+.btn-back:link,.btn-back:visited{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color:#2E2E2E ;
+    padding: 1.2rem;
+    font-size: 2.4rem;
+    background-color: #D9D9D9;
+    border-radius: 50%;
+}
+
+.nav-ul{
+    display: flex;
+    list-style-type: none;
+    gap: 6.2rem;
+}
+
+.nav-link-achnor:link,.nav-link-achnor:visited{
+    text-decoration: none;
+    line-height: 2.4rem;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #232323;
+}
+
+.nav-link-achnor:active{
+   text-decoration: underline;
+   text-decoration-thickness:2px;
+
+}
+
+.uploads-section{
+    background-color: #fff;
+    width: 122.6rem;
+    max-width: 100%;
+    margin: 6.2rem auto;
+    padding: 6.2rem;
+    border-radius: 1.8rem;
+}
+.upload{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #F6F6F6;
+    text-align: center;
+    border: 2px dashed #4386A9;
+    height: 423px;
+    border-radius: 1.8rem;
+    margin-bottom: 4.8rem;
+}
+.uploads-text{
+    font-size: 2rem;
+    font-weight: 500;
+    color: #4386A9;
+    line-height: 3.8rem;
+    margin-bottom: 3.2rem;
+}
+
+.file-upload {
+    cursor: pointer;
+    /* Style as you please, it will become the visible UI component. */
+    background-color: #62A1EB;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #fff;
+    padding: 1.8rem 6rem;
+    border-radius: .8rem;
+ }
+ 
+ .photo-upload {
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+    max-width: 100%;
+ }
+
+
+.spec-flexbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12.2rem;
+    margin-bottom: 4.8rem;
+}
+
+ .laptop-name-label{
+    display: inline-block;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 21px;
+    color: #000000;
+ }
+ .laptop-name-input{
+    width: 37.5rem;
+    padding:0.8rem 2.4rem 0.8rem 2.4rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    border: 1.8px solid #8AC0E2;
+    border-radius: 8px;
+ }
+ .laptops-name-instruction{
+    font-size: 1.4rem;
+    font-weight: 300;
+ }
+ .laptop-brand-selection{
+    background: #EBEBEB;
+    width: 40.8rem;
+    /* padding:1.9rem 8.3rem 2rem 1.6rem; */
+    padding:0.8rem 2.4rem 0.8rem 2.4rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    border: none;
+ }
+ .laptop-brand-option{
+    background-color: #fff;
+    font-size: 1.8rem;
+    font-weight: 500;
+ }
+
+ .cpu-section{
+    margin-bottom: 4.8rem;
+ }
+ .cpu,.cpu-cores,.cpu-threads{
+    width: 100%;
+ }
+ .cpu-select,.cpu-core,.cpu-thread{
+    width: 100%;
+    padding:0.8rem 2.4rem 0.8rem 2.4rem;
+    border-radius: .8rem;
+ }
+.cpu-core,.cpu-thread{
+    width: 100%;
+    padding:0.8rem 2.4rem 0.8rem 2.4rem;
+    border: 1.8px solid #8AC0E2;
+    border-radius: .8rem;
+ }
+ .cpu-select{
+    margin-top: 1rem;
+    background: #EBEBEB;
+    border: none;
+ }
+ .cpu-instructions{
+    font-size: 1.4rem;
+    font-weight: 300;
+ }
+ .cpu-cores,.cpu-threads{
+    font-size: 1.8rem;
+    font-weight: 500;
+ }
+
+
+ .memory-title{
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #000000;
+    margin-bottom: 1.2rem;
+ }
+ .radios{
+    display: flex;
+    gap:1rem
+ }
+ .radios label{
+    font-size: 1.6rem;
+    font-weight: 400;
+
+ }
+ .laptop-brand-select{
+    align-self: center;
+    justify-self: center;
+ }
+ .ram-section{
+    padding: 3rem;
+    margin-bottom: 4.8rem;
+ }
+ .ram-flexbox{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items:center;
+    margin-bottom: 4.8rem;
+ }
+ .laptop-ram-label{
+    display: inline-block;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 21px;
+    color: #000000;
+ }
+ .laptop-ram-input{
+    width: 37.5rem;
+    padding:0.8rem 2.4rem 0.8rem 2.4rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    border: 1.8px solid #8AC0E2;
+    border-radius: 8px;
+ }
+ .laptop-ram-instruction{
+    font-size: 1.4rem;
+    font-weight: 300;
+ }
+ .laptop-price-select{
+   align-self: stretch;
+   justify-self: start;
+ }
+ .dates-and-price{
+    margin-bottom: 3.2rem;
+ }
+ .date-label,.price-label{
+    display: inline-block;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 21px;
+    color: #000000;
+ }
+ .date-input,.price-input{
+    width: 37.5rem;
+    padding:0.8rem 2.4rem 0.8rem 2.4rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    border: 1.8px solid #8AC0E2;
+    border-radius: 8px;
+ }
+ .price-name{
+    position: relative;
+ }
+ .vector{
+    position: absolute;
+    top: 3.2rem;
+    right:1rem;
+ }
+ .laptop-state{
+    width: 68%;
+ }
+ .state-radios{
+    display: flex;
+    gap:1rem
+ }
+ .state-radios label{
+    font-size: 1.6rem;
+    font-weight: 400;
+ }
+ .state-title{
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #000000;
+    margin-bottom: 1.2rem;
+ }
+ .btns-next-back{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.4rem 6.2rem;
+ }
+ .previous:link,.previous:visited{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.8rem;
+    color: #62A1EB;
+    font-weight: 500;
+ }
+ .next{
+    text-align: end;
+}
+.next-btn:link,.next-btn:visited{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #62A1EB;
+    padding: 1.8rem 6rem;
+    border-radius: .9rem;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #fff;
+
+}
+
+.logo-box{
+    text-align: center;
+}

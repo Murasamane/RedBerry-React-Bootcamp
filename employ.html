@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="http://fonts.cdnfonts.com/css/helvetica-neue-9" rel="stylesheet">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/employ.css">
+    <link rel="stylesheet" href="css/employQueries.css">
+    <title>Employ information</title>
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="btn-back"><ion-icon name="chevron-back-outline"></ion-icon></a>
+        <nav class="nav-box">
+            <ul class="nav-ul">
+                <li class="nav-link"><a href="employ.html" class="nav-link-achnor employ-link">თანამშრომლის ინფო</a></li>
+                <li class="nav-link"><a href="laptops.html" class="nav-link-achnor laptop-link">ლეპტოპის მახასიათებლები</a></li>
+            </ul>
+        </nav>
+        <p class="pages">1/2</p>
+    </header>
+
+    <section class="form-section">
+        <form action="" class="form">
+            <div class="names">
+                <div class="firstnames">
+                    <label for="firstName">სახელი</label>
+                    <br>
+                    <input type="text"  id="firstName">
+                    <p class="form-instructions-names">მინიმუმ 2 სიმბოლო, ქართული ასოები</p>
+                </div>
+                <div class="lastnames">
+                    <label for="lastName">გვარი</label>
+                    <br>
+                    <input type="text"  id="lastName">
+                    <p class="form-instructions-names">მინიმუმ 2 სიმბოლო, ქართული ასოები</p>
+                </div>
+            </div>
+
+            <div class="select-team">
+                <select name="" id="team">
+                    <option value=""default>თიმი</option>
+                    <option value="development">დეველოპმენტი</option>
+                    <option value="HR">HR</option>
+                    <option value="sales">გაყიდვები</option>
+                    <option value="design">დიზაინი</option>
+                    <option value="marketing">მარკეტინგი</option>
+                </select>
+            </div>
+            <div class="position-select">
+                <select name="" id="position">
+                    <option value=""default>პოზიცია</option>
+                    <option value="intern">სტაჟიორი</option>
+                    <option value="junior">ჯუნიორი</option>
+                    <option value="senior">სენიორი</option>
+                    <option value="lead">ლიდი</option>
+                </select>
+            </div>
+
+            <div class="email-section">
+                <div class="mails">
+                    <label for="email">მეილი</label>
+                    <input type="email" name="" id="email">
+                    <p class="mails-instruction">უნდა მთავრდებოდეს @redberry.ge-ით</p>
+                </div>
+            </div>
+            <div class="contacts">
+                <div class="contact">
+                    <label for="phone">ტელეფონის ნომერი</label>
+                    <input type="tel" name="" id="phone" placeholder="+995 598 00 07 01">
+                    <p class="contacts-instruction">უნდა აკმაყოფილებდეს ქართული მობ-ნომრის ფორმატს</p>
+                </div>
+            </div>
+            <div class="next">
+                <a href="laptops.html" class="next-btn">შემდეგი</a>
+            </div>
+        </form>
+    </section>
+    <div class="logo-box">
+        <img src="img/LOGO-10 2.png" alt="">
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

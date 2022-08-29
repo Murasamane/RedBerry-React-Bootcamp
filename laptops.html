@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="http://fonts.cdnfonts.com/css/helvetica-neue-9" rel="stylesheet">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/laptop.css">
+    <link rel="stylesheet" href="css/laptopQueries.css">
+    <title>Laptop Information</title>
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="btn-back"><ion-icon name="chevron-back-outline"></ion-icon></a>
+        <nav class="nav-box">
+            <ul class="nav-ul">
+                <li class="nav-link"><a href="employ.html" class="nav-link-achnor employ-link">თანამშრომლის ინფო</a></li>
+                <li class="nav-link"><a href="laptops.html" class="nav-link-achnor laptop-link">ლეპტოპის მახასიათებლები</a></li>
+            </ul>
+        </nav>
+        <p class="pages">2/2</p>
+    </header>
+    <form action="">
+    <section class="uploads-section">
+        <div class="upload">
+            <h3 class="uploads-text">ჩააგდე ან ატვირთე <br> ლეპტოპის ფოტო</h3>
+            <div class="upload-file">
+                <label for="file-photo" class="file-upload">ატვირთე ფოტო
+                </label>
+                <input type="file" id="file-photo" class="photo-upload">
+            </div>
+        </div>
+        <div class="spec-flexbox">
+            <div class="laptop-name">
+                <label for="laptops-name" class="laptop-name-label">ლეპტოპის სახელი</label>
+                <br>
+                <input type="text" id="laptops-name" class="laptop-name-input">
+                <p class="laptops-name-instruction">ლათინური ასოები, ციფრები, !@#$%^&*()_+= </p>
+            </div>
+            <div class="laptop-brand-select">
+                <select name="" id="laptop-brand-selection" class="laptop-brand-selection">
+                    <option value="" class="laptop-brand-option" default>ლეპტოპის ბრენდი</option>
+                    <option value="asus" class="laptop-brand-option">ASUS</option>
+                    <option value="acer" class="laptop-brand-option">ACER</option>
+                    <option value="hp" class="laptop-brand-option">HP</option>
+                    <option value="dell" class="laptop-brand-option">DELL</option>
+                </select>
+            </div>
+        </div>
+        <div class="horizontal"></div>
+
+        <section class="cpu-section">
+            <div class="grid grid--3-cols">
+                <div class="cpu">
+                    <select name="" id="cpu-select" class="cpu-select">
+                        <option value="" class="cpu-option" default>CPU</option>
+                        <option value="ic9" class="cpu-option">Intel Core i9</option>
+                        <option value="ic7" class="cpu-option">Intel Core i7</option>
+                        <option value="ic5" class="cpu-option">Intel Core i5</option>
+                        <option value="ic3" class="cpu-option">Intel Core i3</option>
+                    </select>
+                </div>
+                <div class="cpu-cores">
+                    <label for="cpu-core">CPU-ბირთვი</label>
+                    <br>
+                    <input type="text" id="cpu-core" class="cpu-core">
+                    <p class="cpu-instructions">მხოლოდ ციფრები</p>
+                </div>
+                <div class="cpu-threads">
+                    <label for="cpu-thread">CPU-ს ნაკადი</label>
+                    <br>
+                    <input type="text" id="cpu-thread" class="cpu-thread">
+                    <p class="cpu-instructions">მხოლოდ ციფრები</p>
+                </div>
+            </div>
+            </section>
+        <section class="ram-section">
+            <div class="ram-flexbox">
+                <div class="laptop-ram">
+                    <label for="laptops-name" class="laptop-ram-label">ლეპტოპის RAM (GB)</label>
+                    <br>
+                    <input type="text" id="laptops-name" class="laptop-ram-input">
+                    <p class="laptop-ram-instruction">მხოლოდ ციფრები</p>
+                </div>
+                <div class="laptop-price-select">
+                    <h3 class="memory-title">ლეპტოპის ფასი</h3>
+                    <div class="radios">
+                        <input type="radio" id="ssd" name="disk-type">
+                        <label for="ssd"> SSD</label>
+                        <input type="radio" id="hdd" name="disk-type">
+                        <label for="hdd"> HDD</label>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="horizontal"></div>
+
+        <section class="dates-and-price">
+            <div class="date-grid grid grid--2-cols--modifed">
+                <div class="date-name">
+                    <label for="laptops-name" class="date-label">შეძენის რიცხვი(აირჩიეთ)</label>
+                    <br>
+                    <input type="date"  id="laptops-name" class="date-input">
+                </div>
+                <div class="price-name">
+                    <label for="laptops-name" class="price-label">ლეპტოპის ფასი</label>
+                    <br>
+                    <input type="text" id="laptops-name" class="price-input" placeholder="0000">
+                    <img src="img/Vector.png" alt="gel-img" class="vector">
+                    <p class="laptops-name-instruction">მხოლოდ ციფრები </p>
+                </div>
+            </div>
+        </section>
+        <div class="state grid grid--2-cols">
+            <div class="laptop-state">
+                <h3 class="state-title">ლეპტოპის მდგომარეობა</h3>
+                <div class="state-radios">
+                    <input type="radio" id="new" name="lap-state">
+                    <label for="new"> ახალი</label>
+                    <input type="radio" id="old" name="lap-state">
+                    <label for="old"> მეორადი</label>
+                </div>
+            </div>
+        </div>
+        <div class="btns-next-back">
+            <a href="employ.html" class="previous">უკან</a>
+            <a href="modal.html" class="next-btn">შემდეგი</a>
+        </div>
+    </section>
+    </form>
+    <div class="logo-box">
+        <img src="img/LOGO-10 2.png" alt="">
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

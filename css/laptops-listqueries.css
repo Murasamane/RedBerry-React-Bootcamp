@@ -1,0 +1,29 @@
+@media(max-width:1030px){
+    .form{
+        gap: 2.4rem;
+    }
+    .list-item{
+        padding: 1rem;
+        justify-items: center;
+    }
+}
+@media(max-width:980px){
+    html{
+        font-size: 56.2%;
+    }
+    .header{
+        gap: 1rem;
+    }
+    .form{
+        grid-template-columns: 1fr;
+        padding: 1rem;
+        max-width: 100%;
+        margin: 0;
+    }
+    .list-item{
+        gap: 1.6rem;
+    }
+    img{
+        max-width: 100%;
+    }
+}

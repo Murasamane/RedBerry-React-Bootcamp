@@ -1,0 +1,82 @@
+@media(max-width:950px){
+    html{
+        font-size: 56.2%;
+    }
+    .nav-link-achnor:link, .nav-link-achnor:visited {
+        font-size: 1.6rem;
+
+    }
+    .btn-back:link,.btn-back:visited{
+        background: none;
+    }
+    .nav-ul{
+        gap: 2rem;
+    }
+    .pages{
+        display: block;
+    }
+    .uploads-section{
+        width: 100%;
+        border-radius: 0;
+        padding: 2.4rem;
+    }
+    .photo-upload{
+        width: 0%;
+    }
+    .spec-flexbox{
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        gap: 2rem;
+    }
+    .laptop-brand-select,.laptop-name {
+        align-self: center;
+        width: 100%;
+    }
+    .laptop-name-input,.laptop-brand-selection {
+        width: 100%;
+    }
+    .laptop-state,.state {
+        justify-self: start;
+        align-self: center;
+        width: auto;
+    }
+    .laptop-brand-select{
+        justify-self: start;
+        align-self: center;
+        width: 100%;
+        
+    }
+    .ram-flexbox,.date-grid{
+        gap: 3.2rem;
+    }
+    .grid--3-cols,.grid--2-cols,.ram-flexbox,.grid--2-cols--modifed{
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center;
+    }
+    .laptop-ram{
+        width: 100%;
+    }
+    .laptop-ram-input{
+        width: 100%;
+    }
+    .ram-section{
+        padding:0;
+    }
+    .employ-link{
+        display: none;
+    }
+    .btns-next-back {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2.4rem;
+    }
+    .date-grid,.date-input,.price-input,
+    .date-name,.price-name{
+        width: 100%;
+    }
+
+}
